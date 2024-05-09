@@ -1,0 +1,1678 @@
+==========================================
+SLURM_JOB_ID = 1134711
+SLURM_NODELIST = gnode075
+SLURM_JOB_GPUS = 1
+==========================================
+/home2/snigdha/MGM_project/semanticGAN/gan_train.py:77: UserWarning: This overload of add_ is deprecated:
+	add_(Number alpha, Tensor other)
+Consider using one of the following signatures instead:
+	add_(Tensor other, *, Number alpha) (Triggered internally at /opt/conda/conda-bld/pytorch_1682343995622/work/torch/csrc/utils/python_arg_parser.cpp:1485.)
+  par1[k].data.mul_(decay).add_(1 - decay, par2[k].data)
+/home2/snigdha/miniconda3/envs/research/lib/python3.11/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home2/snigdha/miniconda3/envs/research/lib/python3.11/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=Inception_V3_Weights.IMAGENET1K_V1`. You can also use `weights=Inception_V3_Weights.DEFAULT` to get the most up-to-date weights.
+  warnings.warn(msg)
+args done
+Number of GPUS = 1
+args.distributed: False
+gen
+gen loaded
+dis
+dis loaded
+gen
+gen loaded
+optim
+optim done
+args.ckpt: /home2/snigdha/MGM_project/006000.pt
+load model: /home2/snigdha/MGM_project/006000.pt
+6000 006000.pt
+dict_keys(['g', 'd_img', 'd_seg', 'g_ema', 'args'])
+distributed
+dataloader
+enter
+Loading unlabel dataloader with size  28000
+enter
+/home2/snigdha/MGM_project/CelebAMask-HQ/label_data
+Loading train dataloader with size  1500
+enter
+/home2/snigdha/MGM_project/CelebAMask-HQ/label_data
+Loading val dataloader with size  500
+Training entered
+start
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+==================Start calculating validation scores==================
+d_img val scores: 23.8396, d_seg val scores: 4.5422
+==================Start calculating FID==================
+Gathering activations...
+Calculating Inception Score...
+Calculating means and covariances...
+Covariances calculated, getting FID...
+iteration 00006000: FID: 409126.2306, IS_mean: 1.8484, IS_std: 0.0119
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+ Step1: train the d_img
+Step2: train the d_seg
+Step3: train the generator
+get_rank
+Traceback (most recent call last):
+  File "/home2/snigdha/MGM_project/semanticGAN/gan_train.py", line 753, in <module>
+    train(args, ckpt_dir, img_loader, seg_loader, seg_val_loader, generator, discriminator_img, discriminator_seg,
+  File "/home2/snigdha/MGM_project/semanticGAN/gan_train.py", line 457, in train
+    sample_img, sample_seg = g_ema([sample_z])
+                             ^^^^^^^^^^^^^^^^^
+  File "/home2/snigdha/miniconda3/envs/research/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home2/snigdha/MGM_project/semanticGAN/models/stylegan2_seg.py", line 261, in forward
+    out = conv2(out, latent[:, i + 1], noise=noise2)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home2/snigdha/miniconda3/envs/research/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home2/snigdha/MGM_project/semanticGAN/models/utils.py", line 448, in forward
+    out = self.noise(out, noise=noise)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home2/snigdha/miniconda3/envs/research/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home2/snigdha/MGM_project/semanticGAN/models/utils.py", line 402, in forward
+    return image + self.weight * noise
+           ~~~~~~^~~~~~~~~~~~~~~~~~~~~
+torch.cuda.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.00 GiB (GPU 0; 10.75 GiB total capacity; 5.95 GiB already allocated; 1.94 GiB free; 7.76 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

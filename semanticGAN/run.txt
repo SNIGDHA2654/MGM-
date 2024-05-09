@@ -1,0 +1,1 @@
+ python train_enc.py --img_dataset /ssd_scratch/cvit/vanshg/barcode_data --seg_dataset /ssd_scratch/cvit/vanshg/barcode_data --ckpt /home2/snigdha/MGM_project/042000.pt --seg_name celeba-mask --enc_backboend res --checkpoint_dir /home2/snigdha/MGM_project/checkpoint
