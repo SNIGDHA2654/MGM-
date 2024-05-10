@@ -28,7 +28,7 @@ To reproduce paper **Semantic Segmentation with Generative Models: Semi-Supervis
 
 1. Run **Step1: Semantic GAN training**
 2. Run **Step2: Encoder training**
-3. Run **Inference & Optimization**.  
+  
 
 
 ---
@@ -61,11 +61,11 @@ To use multi-gpus training in the cloud,
 ```
 python -m torch.distributed.launch \
 --nproc_per_node=N_GPU \
---master_port=PORTtrain_gan.py \
-train_gan.py \
+--master_port=PORT \
+--use_env train_enc.py \
 --img_dataset [path-to-img-folder] \
 --inception [path-to-inception file] \
---dataset_name celeba-mask \
+--seg_name celeba-mask \
 --checkpoint_dir [path-to-ckpt-dir] \
 ```
 
@@ -80,6 +80,21 @@ python train_enc.py \
 --enc_backbone [fpn|res] \
 --checkpoint_dir [path-to-ckpt-dir] \
 ```
+To use multi-gpus training in the cloud,
 
+```
+python -m torch.distributed.launch \
+--nproc_per_node=N_GPU \
+--master_port=PORT \
+--use_env train_enc.py \
+--img_dataset [path-to-img-folder] \
+--seg_dataset [path-to-seg-folder] \
+--ckpt [path-to-pretrained GAN model] \
+--seg_name celeba-mask \
+--enc_backbone [fpn|res] \
+--checkpoint_dir [path-to-ckpt-dir] \
+```
+
+## Results
 
 
