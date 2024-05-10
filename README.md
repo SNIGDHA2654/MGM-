@@ -97,4 +97,8 @@ python -m torch.distributed.launch \
 
 ## Results
 
-https://github.com/SNIGDHA2654/MGM-/blob/main/idd_img_rec.mp4
+<figure class="video_container">
+ <video controls="true" allowfullscreen="true">
+ <source src="./idd_img_rec.mp4" type="video/mp4">
+ </video>
+</figure>
