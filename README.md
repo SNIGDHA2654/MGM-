@@ -97,4 +97,4 @@ python -m torch.distributed.launch \
 
 ## Results
 
-
+https://github.com/SNIGDHA2654/MGM-/blob/main/idd_img_rec.mp4
